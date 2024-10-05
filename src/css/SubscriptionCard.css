@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.subscription-card {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 81, 171, 0.1488) 0px 15px 30px 0;
+}
+.first-contents {
+    background: #fff;
+    padding: 40px;
+}
+.first-contents__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2ab3b1;
+    letter-spacing: -0.03px;
+    margin-bottom: 35px;
+}
+.refund-policy {
+    font-size: 18px;
+    font-weight: 700;
+    color: #c0df33;
+    letter-spacing: -0.22px;
+    margin-bottom: 20px;
+}
+.first-contents__description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9aa7be;
+    line-height: 1.625em;
+    letter-spacing: -0.2px;
+}
+@media screen and (max-width: 500px) {
+    .first-contents__title {
+        font-size: 20px;
+    }
+    .refund-policy {
+        font-size: 15px;
+    }
+    .first-contents__description {
+        font-size: 14px;
+    }
+}
+.contents-wrap {
+    display: flex;
+}
+.second-contents,
+.third-contents {
+    width: 50%;
+    padding: 40px;
+}
+@media screen and (max-width: 650px) {
+    .contents-wrap {
+        flex-direction: column;
+    }
+    .second-contents,
+    .third-contents {
+        width: 100%;
+        padding: 40px;
+    }
+}
+.second-contents {
+    background: #2ab3b1;
+}
+.second-contents__title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.22px;
+    margin-bottom: 20px;
+}
+.pricing-info__box {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+.pricing-info__price {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+.pricing-info__period,
+.pricing-benefit {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.625em;
+    letter-spacing: -0.2px;
+    opacity: 0.5;
+}
+.pricing-benefit {
+    white-space: nowrap;
+    opacity: 1;
+    margin-bottom: 26px;
+}
+.sign-up__button {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: none;
+    background: #c0df33;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.22px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+}
+.third-contents {
+    background: #65c9c7;
+}
+.third-contents__title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.22px;
+    margin-bottom: 20px;
+}
+.service-benefits {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+    line-height: 1.42em;
+}
