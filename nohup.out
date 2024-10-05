@@ -821,3 +821,12 @@ Failed to resolve import "./SubscriptionCard.css" from "src/Subscribe.tsx". Does
 1:49:59 AM [vite] hmr update /src/css/SubscriptionCard.css
 1:50:26 AM [vite] hmr update /src/css/SubscriptionCard.css
 1:50:31 AM [vite] hmr update /src/css/SubscriptionCard.css
+1:52:10 AM [vite] page reload dist/index.html
+1:56:35 AM [vite] page reload dist/index.html
+1:56:41 AM [vite] page reload dist/index.html
+2:00:42 AM [vite] hmr update /src/css/main.css
+2:00:57 AM [vite] hmr update /src/css/main.css
+2:01:01 AM [vite] hmr update /src/css/main.css
+2:01:06 AM [vite] hmr update /src/css/main.css
+2:01:13 AM [vite] hmr update /src/css/main.css
+2:01:22 AM [vite] page reload dist/index.html

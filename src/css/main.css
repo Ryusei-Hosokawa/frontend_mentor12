@@ -11,6 +11,11 @@ body {
     background-color: #E6EFF5;
     padding-top: 163px;
 }
+@media screen and (max-width: 650px) {
+    body {
+        padding: 72px 0 62px;
+    }
+}
 .inner {
    width: 100%;
    max-width: 699px;
